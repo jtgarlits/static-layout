@@ -8,7 +8,11 @@ html, body{
 html {
     font-size: 15px;
     font-family: Roboto, sans-serif;
-    background: linear-gradient(90deg, rgb(90, 35, 90) 0%, rgb(18, 26, 73) 50%, rgb(22, 86, 94) 100%);
+    /* background: linear-gradient(90deg, rgb(90, 35, 90) 0%, rgb(18, 26, 73) 50%, rgb(22, 86, 94) 100%); */
+    background-image: url(assets/kastbackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 body{
@@ -55,7 +59,6 @@ nav a{
 
 #open {
     text-transform: uppercase;
-    font-weight: lighter;
     border-radius: 2px;
     border-style: solid;
     border-width: 1px;
@@ -64,6 +67,7 @@ nav a{
     font-size: 14px;
     margin-bottom: 20px;
     margin-left: 40px;
+    padding: 1px 5px;
 }
 
 .arrow {
