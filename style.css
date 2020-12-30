@@ -1,0 +1,206 @@
+/* GENERAL SETUP */
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+    background: linear-gradient(90deg, rgb(90, 35, 90) 0%, rgb(18, 26, 73) 50%, rgb(22, 86, 94) 100%);
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    line-height: 1.8;
+}
+
+/* HEADER LAYOUT */
+
+nav {  
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style-type: none;
+    text-align: center;
+    flex: 1;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+nav a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#logo {
+    height: 50px;
+}
+
+#kast {
+    flex: 5.2;
+    text-align: left;
+    margin:auto;
+}
+
+#open {
+    text-transform: uppercase;
+    font-weight: lighter;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+    margin-right: 40px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0px 3px 3px 0;
+    display: inline-block;
+    padding: 2px;
+    margin-left: 10px;
+    margin-bottom: 4px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+/* MAIN LAYOUT */
+
+h1{
+    font-size: 43px;
+    font-weight:550;
+}
+
+.intro{
+
+    width: 60vw;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 90px;
+
+}
+
+.intro ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro li {
+    list-style-type: none;
+    text-align: center;
+    flex: 1;
+    color: white;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+#computer {
+
+    height: 350px;
+
+}
+
+p {
+    font-size: 18px;
+    width: 40vw;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+#mainopen{
+    color: white;
+    background-color: #fe9000;
+    text-decoration: none;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 3px;
+    font-size: 20px;
+    
+}
+
+.cybersale {
+
+    background-color: white;
+    height: 80vh;
+    color: #434146;
+
+}
+
+h2 {
+    margin: auto;
+    margin-top: 40px;
+    font-size: 48px;
+    line-height:60px;
+    text-align: center;
+    width: 70vw;
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+
+.cybersale ul {
+    display: flex;
+    width: 75vw;
+    margin: auto;
+}
+
+.cybersale li {
+    list-style-type: none;
+    text-align: center;
+    flex: 1;
+
+
+}
+
+.cybersale img{
+    height: 100px;
+}
+
+h3 {
+    margin-top: 100px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#learn {
+    
+    color: #fe9000;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    width: 100vw;
+}
+
+#buttons {
+    flex-direction: column;
+    align-content: space-around;
+    height: 100px;
+}
+
+#membership{
+    color: white;
+    background-color: #fe9000;
+    text-decoration: none;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 3px;
+    font-size: 20px;
+    
+}
